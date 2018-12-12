@@ -38,6 +38,6 @@ void init_janela(GtkApplication *app, gpointer data)
 	GtkWidget *janela;
 	janela = gtk_application_window_new(app);
 	
-	//Mostra a janela
+	//Mostra a janelas
 	gtk_widget_show_all(janela);
 }

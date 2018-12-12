@@ -35,6 +35,8 @@ void janela_init(GtkApplication *app,gpointer data)
 	g_signal_connect(botao,"clicked",G_CALLBACK(clicado),NULL);
 	
 	gtk_container_add(GTK_CONTAINER(janela),botao);
+
+   
 	gtk_widget_show_all(janela);
 }
 
